@@ -7,16 +7,18 @@
 <title>It works!</title>
 </head>
 <body>
-<div  align="center" style="width:80%>
+<div  align="center" style="width:80%">
 <h1>It works2!</h1>
-	<video id="Bober_Tekkno" style="width:300px" muted="true">
+	
+	<video id="Bober" style="width:300px" muted="true">
 	<source src="./Bober_Tekkno.mp4" type="video/mp4">
-	</video>	
+	</video>
+	
 	<video id="555" style="width:300px" muted="true">
 	<source src="./555.mp4" type="video/mp4">
 	</video>
 	
-	<video id="vjuh" style="width:300px"  >
+	<video id="vjuh" style="width:300px" muted="true" >
 	<source src="./vjuh.mp4" type="video/mp4">
 	</video>
 
@@ -26,13 +28,13 @@
 <script>
 $( document ).ready(function(){
 	console.log("Hello World!");
-    $('#Bober_Tekkno').get(0).play();
+    //$('#Bober_Tekkno').get(0).play();
 	$('#555').get(0).play();
-	$("#Bober_Tekkno").prop('loop', true);
+//	$("#Bober_Tekkno").prop('loop', true);
 	$("#555").prop('loop', true);
-	$("#Bober_Tekkno").prop('controls', true);
+//	$("#Bober_Tekkno").prop('controls', true);
 	$("#555").prop('controls', true);
-	$("#Bober_Tekkno").prop('muted', false);
+//	$("#Bober_Tekkno").prop('muted', false);
 });
 </script>
 </div>
